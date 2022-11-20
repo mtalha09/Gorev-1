@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int t;
+  cout << "enter time: ";
+  cin >> t;
+  # define G 9.80665
+  # define DIST(t, G) 0.5*(G)*(t)*(t)
+  cout << "distance is: " << DIST(t, G);
+  
+  return 0;
+}
